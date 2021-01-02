@@ -46,38 +46,43 @@ body::before {
 
 .penulis .logo {
   position: relative;
-  /* bottom: 3px; */
-  left: 45px;
+  left: 75px;
   width: 180px;
   height: 200px;
+  top: -85px;
 }
 
 .isis .t1 {
   position: relative;
-  top: 180px;
+  top: 150px;
   left: 380px;
   color: #E59866;
+  font-family: 'Redressed', cursive;
 }
 
 .isis .diosa {
   position: relative;
-  top: 200px;
+  top: 150px;
   left: 380px;
   width: 70%;
+  font-family: 'Redressed', cursive;
+  font-size: 18px;
 }
 
 .isis .real {
   position: relative;
-  top: 210px;
+  top: 160px;
   left: 380px;
   width: 70%;
+  font-family: 'Redressed', cursive;
+  font-size: 18px;
 }
 
 .isis .diosa::before {
   content: '';
   position: absolute;
-  left: -40px;
-  height: 240px;
+  left: -23px;
+  height: 260px;
   background-color: #000;
   width: 5px;
 }
@@ -98,23 +103,28 @@ body::before {
 
 .apolo .t2 {
   position: relative;
-  top: 250px;
+  top: 190px;
   left: 380px;
   color: #E59866;
+  font-family: 'Redressed', cursive;
 }
 
 .apolo .dios {
   position: relative;
-  top: 252px;
+  top: 200px;
   left: 380px;
   width: 70%;
+  font-family: 'Redressed', cursive;
+  font-size: 18px;
 }
 
 .apolo .real2 {
   position: relative;
-  top: 262px;
+  top: 215px;
   left: 380px;
   width: 70%;
+  font-family: 'Redressed', cursive;
+  font-size: 18px;
 }
 
 .apolo a {
