@@ -18,6 +18,7 @@
   font-family: 'Redressed', cursive;
   top: 40px;
   left: 750px;
+  color: #8A4619;
 }
 
 .historia .texto {
@@ -28,4 +29,11 @@
   top: 100px;
   font-family: 'Redressed', cursive;
 }
-/*# sourceMappingURL=apolo.css.map */
+
+.historia .fcrea {
+  position: absolute;
+  bottom: -136px;
+  left: 500px;
+  color: #8A4619;
+}
+/*# sourceMappingURL=luz_propia.css.map */
