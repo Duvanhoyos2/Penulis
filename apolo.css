@@ -1,0 +1,78 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background: #f5f3ef;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 25%;
+  width: 1px;
+  height: 100%;
+  background-color: black;
+}
+
+.menu {
+  position: absolute;
+  right: 80px;
+  top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  text-decoration: none;
+  display: inline;
+  padding: 10px;
+  font-family: 'Redressed', cursive;
+  font-size: 25px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul li a:hover {
+  color: #E59866;
+}
+
+.penulis .logo {
+  position: relative;
+  left: 45px;
+  width: 180px;
+  height: 200px;
+  top: 250px;
+}
+
+.List {
+  position: relative;
+  left: 400px;
+}
+
+.List ul {
+  list-style: none;
+}
+
+.List ul li {
+  text-decoration: none;
+  font-family: 'Redressed', cursive;
+  font-size: 18px;
+}
+
+.List ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.List ul li a:hover {
+  color: #E59866;
+}
+/*# sourceMappingURL=apolo.css.map */

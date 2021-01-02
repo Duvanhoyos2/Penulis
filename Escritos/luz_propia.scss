@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+    background: #f5f3ef;  
+}
+
+.historia{
+.recuadro{
+    width: 600px;
+    height: 800px;
+    position: relative;
+    left: 400px;
+    top: 15px;
+    }  
+    .titulo{
+        display: inline;
+        position: absolute;
+        font-family: 'Redressed', cursive;
+        top: 40px;
+        left: 750px;
+    }
+    .texto{
+        display: inline-block;
+        position: absolute;
+        width: 280px;
+        left: 550px;
+        top: 100px;
+        font-family: 'Redressed', cursive;
+    }
+}

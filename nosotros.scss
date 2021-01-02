@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+    background: #f5f3ef;  
+}
+
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 25%;
+    width: 1px;
+    height: 100%;
+    background-color: black;
+}
+
+.menu{
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    display: flex;
+    ul{
+        list-style: none;
+        li{
+            text-decoration: none;
+            display: inline;
+            padding: 10px;
+            font-family: 'Redressed', cursive;
+            font-size: 25px;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: #E59866;
+            }
+        }
+        
+    }
+}
+
+.penulis{
+    .logo{
+       position: relative;
+       /* bottom: 3px; */
+       left: 45px;
+       width: 180px;
+       height: 200px;
+    }
+}
+
+.isis{
+    .t1{
+        position: relative;
+        top: 180px;
+        left: 380px;
+        color: #E59866
+    }
+    .diosa{
+        position: relative;
+        top: 200px;
+        left: 380px;
+        width: 70%;
+    }
+    .real{
+        position: relative;
+        top: 210px;
+        left: 380px;
+        width: 70%; 
+    }
+    .diosa::before{
+        content: '';
+        position: absolute;
+        left: -40px;
+        height: 240px;
+        background-color: #000;
+        width: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(204, 97, 26);
+        }
+        a:hover{
+            color: #E59866;
+        }
+
+    .imgisis{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.apolo{
+    .t2{
+        position: relative;
+        top: 250px;
+        left: 380px;
+        color: #E59866
+    }
+    .dios{
+        position: relative;
+        top: 252px;
+        left: 380px;
+        width: 70%; 
+    }
+    .real2{
+        position: relative;
+        top: 262px;
+        left: 380px;
+        width: 70%;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(204, 97, 26);
+    }
+    a:hover{
+        color: #E59866;
+    }
+    .imgapolo{
+        width: 60px;
+        height: 60px;
+    }
+}

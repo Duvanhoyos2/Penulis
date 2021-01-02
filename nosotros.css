@@ -1,0 +1,133 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background: #f5f3ef;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 25%;
+  width: 1px;
+  height: 100%;
+  background-color: black;
+}
+
+.menu {
+  position: absolute;
+  right: 80px;
+  top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  text-decoration: none;
+  display: inline;
+  padding: 10px;
+  font-family: 'Redressed', cursive;
+  font-size: 25px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul li a:hover {
+  color: #E59866;
+}
+
+.penulis .logo {
+  position: relative;
+  /* bottom: 3px; */
+  left: 45px;
+  width: 180px;
+  height: 200px;
+}
+
+.isis .t1 {
+  position: relative;
+  top: 180px;
+  left: 380px;
+  color: #E59866;
+}
+
+.isis .diosa {
+  position: relative;
+  top: 200px;
+  left: 380px;
+  width: 70%;
+}
+
+.isis .real {
+  position: relative;
+  top: 210px;
+  left: 380px;
+  width: 70%;
+}
+
+.isis .diosa::before {
+  content: '';
+  position: absolute;
+  left: -40px;
+  height: 240px;
+  background-color: #000;
+  width: 5px;
+}
+
+.isis a {
+  text-decoration: none;
+  color: #cc611a;
+}
+
+.isis a:hover {
+  color: #E59866;
+}
+
+.isis .imgisis {
+  width: 70px;
+  height: 70px;
+}
+
+.apolo .t2 {
+  position: relative;
+  top: 250px;
+  left: 380px;
+  color: #E59866;
+}
+
+.apolo .dios {
+  position: relative;
+  top: 252px;
+  left: 380px;
+  width: 70%;
+}
+
+.apolo .real2 {
+  position: relative;
+  top: 262px;
+  left: 380px;
+  width: 70%;
+}
+
+.apolo a {
+  text-decoration: none;
+  color: #cc611a;
+}
+
+.apolo a:hover {
+  color: #E59866;
+}
+
+.apolo .imgapolo {
+  width: 60px;
+  height: 60px;
+}
+/*# sourceMappingURL=nosotros.css.map */
