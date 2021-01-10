@@ -131,4 +131,11 @@ body::before {
   width: 60px;
   height: 60px;
 }
+
+.apolo .footer .f {
+  float: left;
+  left: 500px;
+  bottom: -10px;
+  font-family: 'Redressed', cursive;
+}
 /*# sourceMappingURL=nosotros.css.map */
